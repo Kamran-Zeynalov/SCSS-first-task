@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #212529;
+}
+header .container .top {
+  height: 60px;
+  align-items: center;
+}
+header .container .top .base h5 {
+  font-size: 19px;
+  font-weight: 400;
+}
+header .container .top .base h5 a {
+  color: white;
+  text-decoration: none;
+}
+header .container .top .base-menu {
+  display: flex;
+  justify-content: end;
+}
+header .container .top .base-menu ul li {
+  font-size: 16px;
+  display: inline-block;
+  padding: 4px 10px 0 0;
+}
+header .container .top .base-menu ul li a {
+  color: lightgray;
+  text-decoration: none;
+  transition: 0.2s;
+}
+header .container .top .base-menu ul li a:hover {
+  color: white;
+  text-decoration: none;
+}
+header .container .top .menu {
+  float: right;
+  position: relative;
+  bottom: 25px;
+  width: 50px;
+  height: 45px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+header .container .top .menu i {
+  display: inline-block;
+  font-size: 22px;
+  color: lightgray;
+  margin: 6px 10px;
+}
+header .container .bottom .text-button {
+  width: 550px;
+  height: 70vh;
+  margin: 0 auto;
+  position: relative;
+  top: 90px;
+}
+header .container .bottom .text-button .caption {
+  text-align: center;
+}
+header .container .bottom .text-button .caption h1 {
+  color: white;
+  font-size: 50px;
+}
+header .container .bottom .text-button .caption p {
+  color: gray;
+  font-size: 20px;
+}
+header .container .bottom .text-button .button {
+  display: flex;
+  justify-content: space-evenly;
+}
+header .container .bottom .text-button .button .start-btn button {
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #0d6efd;
+  font-size: 20px;
+  padding: 10px;
+  width: 160px;
+  transition: 0.3s;
+}
+header .container .bottom .text-button .button .start-btn button:hover {
+  background-color: #053c8f;
+}
+header .container .bottom .text-button .button .learn-btn button {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #212529;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  width: 160px;
+  transition: 0.3s;
+}
+header .container .bottom .text-button .button .learn-btn button:hover {
+  background-color: white;
+  color: black;
+}
+
+#Featured .container .row .icon-info {
+  margin: 50px 0;
+  padding: 45px 45px;
+}
+#Featured .container .row .icon-info .icon {
+  width: 60px;
+  height: 60px;
+  background-color: #0d6efd;
+  border-radius: 5px;
+  margin: 0 0 16px 0;
+}
+#Featured .container .row .icon-info .icon i {
+  font-size: 30px;
+  margin: 15px 17px;
+  color: white;
+}
+#Featured .container .row .icon-info:nth-child(2) .icon i {
+  font-size: 30px;
+  margin: 15px 18px;
+  color: white;
+}
+#Featured .container .row .icon-info:nth-child(3) .icon i {
+  font-size: 30px;
+  margin: 15px 13px;
+  color: white;
+}
+#Featured .container .row .info {
+  width: 95%;
+}
+#Featured .container .row .info h2 {
+  font-size: 22px;
+}
+
+#Payying {
+  background-color: #eeeded;
+}
+#Payying .title {
+  text-align: center;
+  display: block;
+  padding: 80px 0 40px 0;
+}
+#Payying .title p {
+  font-size: 18px;
+  color: gray;
+}
+#Payying .container .row .premium {
+  border: 2px solid lightgray;
+  background-color: white;
+  padding: 50px;
+  width: 340px;
+  margin: 20px 20px 60px;
+}
+#Payying .container .row .premium:nth-child(2) .price h6 {
+  color: black;
+}
+#Payying .container .row .premium:nth-child(2) .price h6 i {
+  color: rgba(255, 255, 0, 0.616);
+}
+#Payying .container .row .premium:nth-child(2) .btn button {
+  background-color: #0d6efd;
+  color: white;
+}
+#Payying .container .row .premium:nth-child(2) .btn button:hover {
+  background-color: #053c8f;
+}
+#Payying .container .row .premium .price h6 {
+  color: gray;
+}
+#Payying .container .row .premium .price h1 {
+  font-size: 55px;
+  display: inline-block;
+}
+#Payying .container .row .premium .price span {
+  color: gray;
+}
+#Payying .container .row .premium .resource .good i {
+  font-size: 10px;
+  display: inline-block;
+  margin: 0 2px;
+  color: #0d6efd;
+}
+#Payying .container .row .premium .resource .bad {
+  color: gray;
+}
+#Payying .container .row .premium .resource .bad i {
+  font-size: 10px;
+  display: inline-block;
+  margin: 0 2px;
+  color: gray;
+}
+#Payying .container .row .premium .btn {
+  width: 100%;
+}
+#Payying .container .row .premium .btn button {
+  width: 100%;
+  border: 1px solid #0d6efd;
+  border-radius: 5px;
+  padding: 7px 0;
+  background-color: white;
+  color: #0d6efd;
+  transition: 0.3s;
+}
+#Payying .container .row .premium .btn button:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+#Customer {
+  margin: 0 0 80px 0;
+}
+#Customer .title {
+  text-align: center;
+  margin: 60px 0 0 0;
+  padding: 40px 0 20px 0;
+}
+#Customer .title p {
+  font-size: 19px;
+  color: gray;
+}
+#Customer .messages .icon-text {
+  width: 40%;
+  margin: 20px auto;
+  display: flex;
+  padding: 18px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+#Customer .messages .icon-text .icon {
+  margin-right: 20px;
+}
+#Customer .messages .icon-text .icon i {
+  font-size: 50px;
+  color: #0d6efd;
+}
+#Customer .messages .icon-text .text .client {
+  color: gray;
+}/*# sourceMappingURL=main.css.map */

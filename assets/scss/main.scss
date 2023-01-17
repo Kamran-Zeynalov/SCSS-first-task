@@ -214,60 +214,70 @@ header {
                 width: 340px;
                 margin: 20px 20px 60px;
 
-                &:nth-child(2){
-                 .price{
-                    h6{
-                        i{
-                            color: rgba(255, 255, 0, 0.616);
-                        }
-                        color: black;
-                    }
-                 }   
-                 .btn{
-                    button{
-                        background-color: #0d6efd;
-                        color: white;
-                        &:hover{
-                            background-color: #053c8f;
+                &:nth-child(2) {
+                    .price {
+                        h6 {
+                            i {
+                                color: rgba(255, 255, 0, 0.616);
+                            }
+
+                            color: black;
                         }
                     }
-                 }
+
+                    .btn {
+                        button {
+                            background-color: #0d6efd;
+                            color: white;
+
+                            &:hover {
+                                background-color: #053c8f;
+                            }
+                        }
+                    }
                 }
+
                 .price {
-                    h6{
+                    h6 {
                         color: gray;
                     }
-                    h1{
+
+                    h1 {
                         font-size: 55px;
                         display: inline-block;
                     }
-                    span{
+
+                    span {
                         color: gray;
                     }
                 }
-             
-                .resource{
-                    .good{
-                        i{
+
+                .resource {
+                    .good {
+                        i {
                             font-size: 10px;
                             display: inline-block;
                             margin: 0 2px;
                             color: #0d6efd;
                         }
                     }
-                    .bad{
-                        i{
+
+                    .bad {
+                        i {
                             font-size: 10px;
                             display: inline-block;
                             margin: 0 2px;
                             color: gray;
                         }
+
                         color: gray;
                     }
                 }
-                .btn{
+
+                .btn {
                     width: 100%;
-                    button{
+
+                    button {
                         width: 100%;
                         border: 1px solid #0d6efd;
                         border-radius: 5px;
@@ -276,7 +286,7 @@ header {
                         color: #0d6efd;
                         transition: .3s;
 
-                        &:hover{
+                        &:hover {
                             background-color: #0d6efd;
                             color: white;
                         }
@@ -287,20 +297,22 @@ header {
     }
 }
 
-#Customer{
+#Customer {
     margin: 0 0 80px 0;
-    .title{
+
+    .title {
         text-align: center;
         margin: 60px 0 0 0;
         padding: 40px 0 20px 0;
 
-        p{
+        p {
             font-size: 19px;
             color: gray;
         }
     }
-    .messages{
-        .icon-text{
+
+    .messages {
+        .icon-text {
             width: 40%;
             margin: 20px auto;
             display: flex;
@@ -308,15 +320,17 @@ header {
             border: 1px solid lightgray;
             border-radius: 5px;
 
-            .icon{
-                i{
+            .icon {
+                i {
                     font-size: 50px;
                     color: #0d6efd;
                 }
+
                 margin-right: 20px;
             }
-            .text{
-                .client{
+
+            .text {
+                .client {
                     color: gray;
                 }
             }
@@ -324,8 +338,81 @@ header {
     }
 }
 
-#Mail{
-    .container{
+#Mail {
+    background-color: #eeeded;
 
+    .container {
+        .row {
+            .iconMail {
+                margin: 90px 0 10px 0;
+                text-align: center;
+
+                .icon {
+                    i {
+                        color: #0d6efd;
+                        font-size: 50px;
+                    }
+                }
+
+                .title {
+                    p {
+                        font-size: 18px;
+                        color: gray;
+                    }
+                }
+            }
+
+            .person-info {
+                width: 40%;
+                margin: 0 auto;
+
+                form {
+                    text-align: center;
+
+                    input,
+                    textarea {
+                        padding: 14px;
+                        margin: 15px;
+                        display: block;
+                        width: 100%;
+                        border: 1px solid lightgray;
+                        border-radius: 4px;
+                    }
+
+                    button {
+                        width: 100%;
+                        margin: 5px 15px;
+                        padding: 10px 0;
+                        border: none;
+                        border-radius: 4px;
+                        background-color: #0d6efd;
+                        color: white;
+                        transition: .3s;
+
+                        &:hover {
+                            background-color: #053c8f;
+                        }
+
+                        margin: 0 0 90px 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    height: 120px;
+    background-color: #212529;
+
+    .end {
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            color: white;
+        }
     }
 }
